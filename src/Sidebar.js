@@ -1,5 +1,6 @@
 import React from 'react'
 import './Sidebar.css'
+import SidebarChat from './SidebarChat'
 import { Avatar, IconButton } from '@material-ui/core'
 import { SearchOutlined } from '@material-ui/icons'
 import { DonutLarge } from '@material-ui/icons'
@@ -30,7 +31,7 @@ function Sidebar() {
                 </div>
             </div>
             <div className="sidebar__chats">
-                
+                <SidebarChat addNewChat/>
             </div>
         </div>
     )
